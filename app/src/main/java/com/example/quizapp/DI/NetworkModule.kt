@@ -1,4 +1,4 @@
-package com.example.DI
+package com.example.quizapp.DI
 
 import com.example.quizapp.data.datasource.remote.QuizRemote
 import com.google.firebase.firestore.FirebaseFirestore

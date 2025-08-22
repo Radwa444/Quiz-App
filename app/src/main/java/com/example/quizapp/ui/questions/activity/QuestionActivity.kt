@@ -11,9 +11,9 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
-import com.example.quizapp.ID_QUIZ
+import com.example.quizapp.utils.ID_QUIZ
 import com.example.quizapp.R
-import com.example.quizapp.SCOPE
+import com.example.quizapp.utils.SCOPE
 import com.example.quizapp.databinding.ActivityQuestionBinding
 import com.example.quizapp.domain.entity.Question.Question
 import com.example.quizapp.ui.questions.viewmodel.QuestionViewModel

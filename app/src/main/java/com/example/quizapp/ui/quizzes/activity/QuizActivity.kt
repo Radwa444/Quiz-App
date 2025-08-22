@@ -1,27 +1,19 @@
 package com.example.quizapp.ui.quizzes.activity
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.ProgressBar
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.quizapp.ID_QUIZ
-import com.example.quizapp.R
+import com.example.quizapp.utils.ID_QUIZ
 import com.example.quizapp.databinding.ActivityQuizBinding
-import com.example.quizapp.databinding.LoagingBinding
 import com.example.quizapp.domain.entity.Quiz.Quiz
 
-import com.example.quizapp.name_input
+import com.example.quizapp.utils.name_input
 import com.example.quizapp.ui.questions.activity.QuestionActivity
 import com.example.quizapp.ui.quizzes.adapter.QuizAdapter
 import com.example.quizapp.ui.quizzes.viewmodel.QuizViewModel

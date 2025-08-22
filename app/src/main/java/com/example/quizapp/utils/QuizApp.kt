@@ -1,4 +1,4 @@
-package com.example.quizapp.ui
+package com.example.quizapp.utils
 
 import android.app.Application
 import com.google.firebase.Firebase
