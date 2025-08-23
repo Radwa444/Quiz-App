@@ -31,7 +31,7 @@ The app provides multiple-choice questions with real-time feedback, score tracki
 
 ```
 data/      # Repository implementations, Firestore integration
-domain/    #Repository interfaces , Entities
+domain/    # Repository interfaces , Entities
 di/        # Hilt modules for Dependency Injection  
 ui/        # Activities, ViewModels, Adapters  
 utils/     # Helper classes & constants  
