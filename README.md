@@ -30,7 +30,8 @@ The app provides multiple-choice questions with real-time feedback, score tracki
 ## 📂 Project Structure  
 
 ```
-data/      # Repository, Firestore integration, Models  
+data/      # Repository implementations, Firestore integration
+domain/    #Repository interfaces , Entities
 di/        # Hilt modules for Dependency Injection  
 ui/        # Activities, ViewModels, Adapters  
 utils/     # Helper classes & constants  
